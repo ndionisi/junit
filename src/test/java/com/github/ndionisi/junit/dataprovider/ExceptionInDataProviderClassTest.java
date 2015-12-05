@@ -6,6 +6,10 @@ import com.tngtech.java.junit.dataprovider.UseDataProvider;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+/**
+ * Tests the case of an exception thrown in the {@link @DataProvider} method.
+ * Enables to see how the failure looks like and how it is integrated in the IDE.
+ */
 @RunWith(DataProviderRunner.class)
 public class ExceptionInDataProviderClassTest {
 
